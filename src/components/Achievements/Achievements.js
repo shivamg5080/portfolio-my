@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import AchievementCard from "./AchievementCards";
 import Particle from "../Particle";
-import IIT_Kharagpur_Logo from "../../Assets/Achievements/pp.png";
+import IIIT_BHOPAL_Logo from "../../Assets/Achievements/pp.png";
 import NCO from "../../Assets/Achievements/NCO.png";
 import IMO from "../../Assets/Achievements/IMO.png";
 import SCS from "../../Assets/Achievements/SCS.png";
@@ -22,7 +22,7 @@ function Achievements() {
         <Col style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Row md={12} className="project-card">
             <AchievementCard
-              imgPath={IIT_Kharagpur_Logo}
+              imgPath={IIT_BHOPAL_Logo}
               index={0}
               isBlog={false}
               title="Mrs. Sagarika Mukherjee Memorial Award"
