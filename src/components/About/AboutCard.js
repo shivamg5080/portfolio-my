@@ -12,7 +12,7 @@ function AboutCard() {
             student at <span className="purple"> IIIT BHOPAL</span> diving
             into the world of software engineering and problem-solving.
         Originating from the city  Jhansi,
-            Uttar Pradesh</span>.{" "}
+            Uttar Pradesh.{" "}
             <br />
             <br />
             Outside the tech realm, catch me :
