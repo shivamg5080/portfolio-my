@@ -11,8 +11,9 @@ function AboutCard() {
             Hello, I'm <span className="purple">Shivam Gupta</span>, a second-year
             student at <span className="purple"> IIIT BHOPAL</span> diving
             into the world of software engineering and problem-solving.
-            Originating from the city Jhansi,
-            Uttar Pradesh,.
+        Originating from the city of waterfalls, Jhansi,
+            Uttar Pradesh, my journey includes gaining experience as a software
+            engineering intern at <span className="purple"> Honeywell</span>.{" "}
             <br />
             <br />
             Outside the tech realm, catch me :
