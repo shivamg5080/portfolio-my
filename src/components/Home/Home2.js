@@ -4,102 +4,38 @@ import myImg from "../../Assets/avatar.jpg";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillFacebook, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import React from 'react';
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
-      <Container>
-        <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
-              Have been programming for 4 years, and I try to convince myself
-              that it was the right decision. Anyways … 🤷‍♂️
-              <br />
-              <br />
-              Proficient in
-              <i>
-                <b className="purple"> Data Structures and Algorithms </b>{" "}
-              </i>{" "}
-              and fluent in languages like
-              <i>
-                <b className="purple"> C, C++, and JavaScript</b>
-              </i>
-              <br />
-              <br />
-              Hands-on experience in building
-              <i>
-                <b className="purple"> web applications </b>{" "}
-              </i>{" "}
-              with modern tech stacks, such as{" "}
-              <i>
-                {" "}
-                <b className="purple">React and Redux </b>{" "}
-              </i>
-              <br />
-              <br />
-            </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/shivamg5080"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.facebook.com/rajmihir1311"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillFacebook />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/shivam-gupta-870243250/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/ig.helix"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
-            </ul>
-          </Col>
-        </Row>
-      </Container>
-    </Container>
+    <div className="home-about">
+      <h1>Hello, I'm User</h1>
+      <p className="home-about-content">Welcome to my website!</p>
+      <ul className="home-about-social-links">
+        <li className="social-icons">
+          <a
+            href="https://github.com/shivamg5080"
+            target="_blank"
+            rel="noreferrer"
+            className="icon-colour home-social-icons"
+          >
+            <i className="fab fa-github"></i>
+          </a>
+        </li>
+        <li className="social-icons">
+          <a
+            href="https://www.linkedin.com/in/shivam-gupta-870243250/"
+            target="_blank"
+            rel="noreferrer"
+            className="icon-colour home-social-icons"
+          >
+            <i className="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
   );
 }
+
 export default Home2;
+
