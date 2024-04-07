@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import AchievementCard from "./AchievementCards";
 import Particle from "../Particle";
 import IIT_Kharagpur_Logo from "../../Assets/Achievements/pp.png";
-import NCO from "../../Assets/Achievements/NCO.png";
+import NSO from "../../Assets/Achievements/NSO.png";
 import IMO from "../../Assets/Achievements/IMO.png";
 import SCS from "../../Assets/Achievements/SCS.png";
 import MCS from "../../Assets/Achievements/MCS.jpg";
@@ -60,10 +60,10 @@ function Achievements() {
           </Row>
           <Row md={12} className="project-card">
             <AchievementCard
-              imgPath={NCO}
+              imgPath={NSO}
               index={4}
               isBlog={false}
-              title="National Cyber Olympiad"
+              title="National Science Olympiad"
               description="Attained an international rank of 69 and secured a Zonal Rank of 5 among 1.2 million+ participants in the SOF National Cyber Olympiad 2019, demonstrating excellence in Computer Science and IT. "
             />
           </Row>
