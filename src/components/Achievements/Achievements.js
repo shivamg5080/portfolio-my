@@ -35,7 +35,7 @@ function Achievements() {
               index={4}
               isBlog={false}
               title="National Science Olympiad"
-              description="Attained an international rank of 124 and secured a Zonal Rank of 70 among 1.2 million+ participants in the SOF National Science Olympiad 2, demonstrating excellence in science."
+              description="Attained an international rank of 124 and secured a Zonal Rank of 70 among 1.2 million+ participants in the SOF National Science Olympiad 2, demonstrating excellence in science. "
           </Row>
           <Row md={12} className="project-card">
             <AchievementCard
