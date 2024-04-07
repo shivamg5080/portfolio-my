@@ -31,15 +31,6 @@ function Achievements() {
               description="Bagged an International Rank of 104 and a Zonal Rank of 5 (in Jharkhand Zone) among 3.4 million students in the SOF International Mathematics Olympiad 2020, showcasing my outstanding performance in the field of mathematics."
             />
           </Row>
-                <Row md={12} className="project-card">
-            <AchievementCard
-              imgPath={NSO}
-              index={2}
-              isBlog={false}
-              title="International Science Olympiad"
-              description="Bagged an International Rank of 104 and a Zonal Rank of 5 (in Jharkhand Zone) among 3.4 million students in the SOF International Mathematics Olympiad 2020, showcasing my outstanding performance in the field of mathematics."
-            />
-          </Row>
           <Row md={12} className="project-card">
             <AchievementCard
               imgPath={SCS}
