@@ -12,14 +12,7 @@ function Achievements() {
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        {/* <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
-        </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p> */}
         <Col style={{ justifyContent: "center", paddingBottom: "10px" }}>
-         
           <Row md={12} className="project-card">
             <AchievementCard
               imgPath={IMO}
@@ -36,6 +29,7 @@ function Achievements() {
               isBlog={false}
               title="National Science Olympiad"
               description="Attained an international rank of 124 and secured a Zonal Rank of 70 among 1.2 million+ participants in the SOF National Science Olympiad 2, demonstrating excellence in science. "
+            />
           </Row>
           <Row md={12} className="project-card">
             <AchievementCard
@@ -52,7 +46,7 @@ function Achievements() {
               index={6}
               isBlog={false}
               title="Academic Excellence Award"
-              description="Recieved the Academic Excellence Award in Class 10, achieving a commendable 92.6% and securing the 8rd rank among 120 students in the tenth CBSE examination. This accomplishment reflects my commitment to academic excellence, highlighting my dedication and passion for learning."
+              description="Received the Academic Excellence Award in Class 10, achieving a commendable 92.6% and securing the 8th rank among 120 students in the tenth CBSE examination. This accomplishment reflects my commitment to academic excellence, highlighting my dedication and passion for learning."
             />
           </Row>
         </Col>
