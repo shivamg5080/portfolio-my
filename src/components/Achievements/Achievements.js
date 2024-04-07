@@ -3,8 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import AchievementCard from "./AchievementCards";
 import Particle from "../Particle";
 import IMO from "../../Assets/Achievements/IMO.png";
-import SCS from "../../Assets/Achievements/SCS.png";
-import MCS from "../../Assets/Achievements/MCS.jpg";
+import nso from "../../Assets/Achievements/nso.png";
+import scs from "../../Assets/Achievements/scs.png";
+import mcs from "../../Assets/Achievements/mcs.jpg";
 
 function Achievements() {
   return (
@@ -30,9 +31,18 @@ function Achievements() {
               description="Bagged an International Rank of 104 and a Zonal Rank of 5 (in Jharkhand Zone) among 3.4 million students in the SOF International Mathematics Olympiad 2020, showcasing my outstanding performance in the field of mathematics."
             />
           </Row>
+                <Row md={12} className="project-card">
+            <AchievementCard
+              imgPath={nso}
+              index={2}
+              isBlog={false}
+              title="International Science Olympiad"
+              description="Bagged an International Rank of 104 and a Zonal Rank of 5 (in Jharkhand Zone) among 3.4 million students in the SOF International Mathematics Olympiad 2020, showcasing my outstanding performance in the field of mathematics."
+            />
+          </Row>
           <Row md={12} className="project-card">
             <AchievementCard
-              imgPath={SCS}
+              imgPath={scs}
               index={5}
               isBlog={false}
               title="Academic Excellence Award"
@@ -41,7 +51,7 @@ function Achievements() {
           </Row>
           <Row md={12} className="project-card">
             <AchievementCard
-              imgPath={MCS}
+              imgPath={mcs}
               index={6}
               isBlog={false}
               title="Academic Excellence Award"
