@@ -70,21 +70,12 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-           
-
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/achievements"
+                to="/projects"
                 onClick={() => updateExpanded(false)}
               >
-                  <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/project"
-                onClick={() => updateExpanded(false)}
-              >
-                {/* <LiaAwardSolid /> */}
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
@@ -92,6 +83,12 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/achievements"
+                onClick={() => updateExpanded(false)}
+              >
                 <GiAchievement style={{ marginBottom: "2px" }} /> Achievements
               </Nav.Link>
             </Nav.Item>
@@ -113,3 +110,4 @@ function NavBar() {
 }
 
 export default NavBar;
+
