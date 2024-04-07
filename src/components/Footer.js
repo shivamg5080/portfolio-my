@@ -34,7 +34,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.facebook.com/rajmihir1311"
+                href="https://www.facebook.com/profile.php?id=100048854172202&sk=about"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -44,7 +44,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/mihirraj779/"
+                href="https://www.linkedin.com/in/shivam-gupta-870243250/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
