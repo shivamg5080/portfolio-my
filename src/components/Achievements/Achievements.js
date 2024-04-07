@@ -3,9 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import AchievementCard from "./AchievementCards";
 import Particle from "../Particle";
 import IMO from "../../Assets/Achievements/IMO.png";
-import nso from "../../Assets/Achievements/nso.png";
-import scs from "../../Assets/Achievements/scs.png";
-import mcs from "../../Assets/Achievements/mcs.jpg";
+import NSO from "../../Assets/Achievements/NSO.png";
+import SCS from "../../Assets/Achievements/SCS.png";
+import MCS from "../../Assets/Achievements/MCS.jpg";
 
 function Achievements() {
   return (
@@ -33,7 +33,7 @@ function Achievements() {
           </Row>
                 <Row md={12} className="project-card">
             <AchievementCard
-              imgPath={nso}
+              imgPath={NSO}
               index={2}
               isBlog={false}
               title="International Science Olympiad"
@@ -42,7 +42,7 @@ function Achievements() {
           </Row>
           <Row md={12} className="project-card">
             <AchievementCard
-              imgPath={scs}
+              imgPath={SCS}
               index={5}
               isBlog={false}
               title="Academic Excellence Award"
@@ -51,7 +51,7 @@ function Achievements() {
           </Row>
           <Row md={12} className="project-card">
             <AchievementCard
-              imgPath={mcs}
+              imgPath={MCS}
               index={6}
               isBlog={false}
               title="Academic Excellence Award"
