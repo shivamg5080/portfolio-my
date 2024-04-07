@@ -70,9 +70,9 @@ function Projects() {
             <ProjectCard
               imgPath={robo}
               isBlog={false}
-              title="Robotics Arm"
-              description="Developed a two-degree-of-freedom Robotics Arm featuring a 15 lbs payload capacity, a wrist joint speed of 120 Deg/s, and a 24 V voltage inclusion. Crafted the working algorithm and implemented the system's functionality using Arduino IDE and Embedded C. Utilized Arduino UNO and electronic components for the successful setup of the Robotics Arm System, integrating IoT and Embedded C technologies."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Codeforces Scrapper"
+              description="Developed a web scraping project in Python to extract and save problem statements, notes, and inputs/outputs from Codeforces problem pages using Selenium and BeautifulSoup libraries. Implemented a file management system to save different problem data in separate files with proper names, dates, and indentation."
+              ghLink="https://github.com/shivamg5080/codeforces-scrapper"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
