@@ -73,7 +73,7 @@ function Achievements() {
               index={5}
               isBlog={false}
               title="Academic Excellence Award"
-              description="Honored to receive the Academic Excellence Award in both Class 11 and 12, recognizing my outstanding performance. Commended for excellence in competitive exams like IIT JEE and inter-school competitions, this accolade reflects my commitment to academic pursuits and success in challenging environments."
+              description="Honored to receive the Academic Excellence Award in both Class 11 and 12, recognizing my outstanding performance. Commended for excellence in competitive exams like IIT JEE and scoring 90.8%, this accolade reflects my commitment to academic pursuits and success in challenging environments."
             />
           </Row>
           <Row md={12} className="project-card">
@@ -82,7 +82,7 @@ function Achievements() {
               index={6}
               isBlog={false}
               title="Academic Excellence Award"
-              description="Recieved the Academic Excellence Award in Class 10, achieving a commendable 94.2% and securing the 3rd rank among 250 students in the tenth ICSE examination. This accomplishment reflects my commitment to academic excellence, highlighting my dedication and passion for learning."
+              description="Recieved the Academic Excellence Award in Class 10, achieving a commendable 92.6% and securing the 8rd rank among 120 students in the tenth CBSE examination. This accomplishment reflects my commitment to academic excellence, highlighting my dedication and passion for learning."
             />
           </Row>
         </Col>
