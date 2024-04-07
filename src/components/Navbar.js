@@ -73,21 +73,9 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/experiance"
-                onClick={() => updateExpanded(false)}
-              >
-                <MdOutlineWorkHistory style={{ marginBottom: "2px" }} /> Work
-                Experiences
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                {/* <LiaAwardSolid /> */}
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
@@ -122,4 +110,5 @@ function NavBar() {
 }
 
 export default NavBar;
+
 
