@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import AchievementCard from "./AchievementCards";
 import Particle from "../Particle";
 import IMO from "../../Assets/Achievements/IMO.png";
-import NSO from "../../Assets/Achievements/NSO.png";
 import SCS from "../../Assets/Achievements/SCS.png";
 import MCS from "../../Assets/Achievements/MCS.jpg";
 
